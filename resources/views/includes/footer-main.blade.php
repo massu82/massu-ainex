@@ -1,44 +1,33 @@
 <!-- start: Footer Section -->
-<footer class="tj-footer-section footer-4 section-gap-x">
-    <div class="footer-top-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="footer-cta-2">
-                        <h2 class="title">No estás solo en este camino digital
-                            <span>Agenda tu llamada con un experto.</span></h2>
-                        <div class="circle-text-wrap wow fadeInUp" data-wow-delay=".7s">
-                            <span class="circle-text"
-                                  data-bg-image="storage/assets/images/hero/circle-text-2.webp"></span>
-                            <a id="btnCalendly" class="circle-icon" href="mailto:hola@massuttier.com.mx"><span><i
-                                        class="tji-arrow-right"></i></span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<footer class="tj-footer-section footer-1 section-gap-x">
+    <div class="footer-top-shape"></div>
     <div class="footer-main-area">
         <div class="container">
             <div class="row justify-content-between">
-                <div class="col-xxl-4 col-xl-3 col-md-6">
+                <div class="col-xl-3 col-md-6">
                     <div class="footer-widget footer-col-1">
                         <div class="footer-logo">
-                            <a href="{{ route('landing_web') }}">
-                                <img src="storage/assets/images/logos/logo.webp" alt="Massuttier">
+                            <a href="{{route('index')}}">
+                                <img src="storage/assets/images/logos/logo.webp" alt="{{ config('app.name') }}">
                             </a>
                         </div>
-                        <div class="subscribe-inner">
-                            <h5 class="title">Subscribe to Our Newsletter.</h5>
-                            <div class="subscribe-form">
-                                <form action="#">
-                                    <input type="email" name="email" placeholder="Enter email*">
-                                    <button type="submit"><i class="tji-plane"></i></button>
-                                    <label for="agree"><input id="agree" type="checkbox">Agree to our <a href="#">Terms
-                                            &
-                                            Condition?</a></label>
-                                </form>
-                            </div>
+                        <div class="footer-text">
+                            <p>Understanding client needs, defining goals, and designing tailored AI crafting's
+                                solutions.
+                            </p>
+                        </div>
+                        <div class="social-links style-2">
+                            <ul>
+                                <li><a href="https://www.facebook.com/studiomassuttier" target="_blank"><i
+                                            class="tji-facebook"></i></a>
+                                </li>
+                                <li><a href="https://www.linkedin.com/" target="_blank"><i class="tji-linkedin"></i></a>
+                                </li>
+                                <li><a href="https://www.instagram.com/studiomassuttier/" target="_blank"><i
+                                            class="tji-instagram"></i></a></li>
+                                <li><a href="https://x.com/aamassuttier" target="_blank"><i
+                                            class="tji-x-twitter"></i></a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -67,56 +56,39 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class="footer-widget widget-contact foote-col-4">
-                        <h5 class="title">Contacto</h5>
-                        <div class="footer-contact-info">
-                            <div class="contact-item">
-                                <span>Cto. Interior Melchor Ocampo, Verónica Anzúres, Miguel Hidalgo, 11300 Ciudad de México, CDMX</span>
-                            </div>
-                            <div class="contact-item">
-                                <a href="https://wa.me/524422593837" target="_blank"><i class="tji-whatsapp"></i>&nbsp;+52
-                                    (442) 2593-837</a>
-                                <a href="mailto:hola@massuttier.com.mx"><i class="tji-comment"></i>&nbsp;
-                                    hola@massuttier.com.mx</a>
-                            </div>
-                            <div class="contact-item">
-                                <span><i class="tji-clock"></i> Lun-Vie 9am-7pm</span>
-                            </div>
+                <div class="col-xxl-4 col-xl-3 col-md-6">
+                    <div class="footer-widget widget-subscribe footer-col-4">
+                        <h3 class="title">Suscríbete a nuestro newsletter.</h3>
+                        <div class="subscribe-form">
+                            <form action="#">
+                                <input type="email" name="email" placeholder="Enter email*">
+                                <button type="submit"><i class="tji-plane"></i></button>
+                                <label for="agree"><input id="agree" type="checkbox">Agree to our <a href="#">Terms &
+                                        Condition?</a></label>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="tj-copyright-area-3">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="copyright-content-area">
-                        <div class="copyright-text">
-                            <p>&copy; {{ date('Y') }}&nbsp;<a href="https://massuttier.com.mx"
-                                                              target="_blank">{{ config('app.name') }}</a>
-                                Todos los derechos reservados</p>
-                        </div>
-                        <div class="social-links style-2">
-                            <ul>
-                                <li><a href="https://www.facebook.com/studiomassuttier" target="_blank"><i
-                                            class="tji-facebook"></i></a>
-                                </li>
-                                <li><a href="https://www.linkedin.com/" target="_blank"><i class="tji-linkedin"></i></a>
-                                </li>
-                                <li><a href="https://www.instagram.com/studiomassuttier/" target="_blank"><i
-                                            class="tji-instagram"></i></a></li>
-                                <li><a href="https://x.com/aamassuttier" target="_blank"><i
-                                            class="tji-x-twitter"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="copyright-menu">
-                            <ul>
-                                <li><a href="#">Aviso de Privacidad</a></li>
-                                <li><a href="#">Términos y Condiciones</a></li>
-                            </ul>
+    <div class="tj-copyright-area">
+        <div class="copyright-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="copyright-content-area">
+                            <div class="copyright-text">
+                                <p>&copy; {{ date('Y') }}&nbsp;<a href="https://massuttier.com.mx"
+                                                                  target="_blank">{{ config('app.name') }}</a>
+                                    Todos los derechos reservados</p>
+                            </div>
+                            <div class="copyright-menu">
+                                <ul>
+                                    <li><a href="#">Aviso de Privacidad</a></li>
+                                    <li><a href="#">Términos y condiciones</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>

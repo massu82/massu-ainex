@@ -38,7 +38,7 @@
                                             class="wow fadeInRight"
                                             data-wow-delay="0.65s"
                                             src="storage/assets/images/hero/title-img.webp"
-                                            alt="Image"></span></h1>
+                                            alt="{{ config('app.name') }}"></span></h1>
 
                                 <!-- Final del widget de enlace de Calendly -->
                                 <div class="banner-btn-area wow fadeInUp" data-wow-delay=".7s">
@@ -46,7 +46,7 @@
                                             onclick="Calendly.initPopupWidget({url: 'https://calendly.com/massuttier/informacion-sitio-web'});return false;">
                                         <div class="btn-inner">
                                             <span class="btn-icon h-icon"><i class="tji-arrow-right"></i></span>
-                                            <span class="btn-text">Agendar mi llamada grartuita</span>
+                                            <span class="btn-text">Agendar mi llamada gratuita</span>
                                             <span class="btn-icon"><i class="tji-arrow-right"></i></span>
 
                                         </div>
@@ -63,27 +63,27 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="h4-hero-item">
-                                    <img src="storage/assets/images/project/web/project-1.webp" alt="Image">
+                                    <img src="storage/assets/images/project/web/project-1.webp" alt="{{ config('app.name') }}">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="h4-hero-item">
-                                    <img src="storage/assets/images/project/web/project-2.webp" alt="Image">
+                                    <img src="storage/assets/images/project/web/project-2.webp" alt="{{ config('app.name') }}">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="h4-hero-item">
-                                    <img src="storage/assets/images/project/web/project-3.webp" alt="Image">
+                                    <img src="storage/assets/images/project/web/project-3.webp" alt="{{ config('app.name') }}">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="h4-hero-item">
-                                    <img src="storage/assets/images/project/web/project-4.webp" alt="Image">
+                                    <img src="storage/assets/images/project/web/project-4.webp" alt="{{ config('app.name') }}">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="h4-hero-item">
-                                    <img src="storage/assets/images/project/web/project-5.webp" alt="Image">
+                                    <img src="storage/assets/images/project/web/project-5.webp" alt="{{ config('app.name') }}">
                                 </div>
                             </div>
                         </div>
@@ -94,34 +94,34 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="h4-hero-item">
-                                    <img src="storage/assets/images/project/web/project-6.webp" alt="Image">
+                                    <img src="storage/assets/images/project/web/project-6.webp" alt="{{ config('app.name') }}">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="h4-hero-item">
-                                    <img src="storage/assets/images/project/web/project-7.webp" alt="Image">
+                                    <img src="storage/assets/images/project/web/project-7.webp" alt="{{ config('app.name') }}">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="h4-hero-item">
-                                    <img src="storage/assets/images/project/web/project-8.webp" alt="Image">
+                                    <img src="storage/assets/images/project/web/project-8.webp" alt="{{ config('app.name') }}">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="h4-hero-item">
-                                    <img src="storage/assets/images/project/web/project-9.webp" alt="Image">
+                                    <img src="storage/assets/images/project/web/project-9.webp" alt="{{ config('app.name') }}">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="h4-hero-item">
-                                    <img src="storage/assets/images/project/web/project-10.webp" alt="Image">
+                                    <img src="storage/assets/images/project/web/project-10.webp" alt="{{ config('app.name') }}">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="hero-bg"><img src="storage/assets/images/hero/h4-hero-shape.png" alt="Image"></div>
+            <div class="hero-bg"><img src="storage/assets/images/hero/h4-hero-shape.png" alt="{{ config('app.name') }}"></div>
         </div>
         <div class="h4-hero-text-circle">
             <div class="circle-text-wrap wow fadeInUp" data-wow-delay=".7s">
@@ -272,32 +272,32 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide client-item">
                                 <div class="client-logo">
-                                    <img src="storage/assets/images/brands/brand-1.webp" alt="Image">
+                                    <img src="storage/assets/images/brands/brand-1.webp" alt="{{ config('app.name') }}">
                                 </div>
                             </div>
                             <div class="swiper-slide client-item">
                                 <div class="client-logo">
-                                    <img src="storage/assets/images/brands/brand-2.webp" alt="Image">
+                                    <img src="storage/assets/images/brands/brand-2.webp" alt="{{ config('app.name') }}">
                                 </div>
                             </div>
                             <div class="swiper-slide client-item">
                                 <div class="client-logo">
-                                    <img src="storage/assets/images/brands/brand-3.webp" alt="Image">
+                                    <img src="storage/assets/images/brands/brand-3.webp" alt="{{ config('app.name') }}">
                                 </div>
                             </div>
                             <div class="swiper-slide client-item">
                                 <div class="client-logo">
-                                    <img src="storage/assets/images/brands/brand-4.webp" alt="Image">
+                                    <img src="storage/assets/images/brands/brand-4.webp" alt="{{ config('app.name') }}">
                                 </div>
                             </div>
                             <div class="swiper-slide client-item">
                                 <div class="client-logo">
-                                    <img src="storage/assets/images/brands/brand-5.webp" alt="Image">
+                                    <img src="storage/assets/images/brands/brand-5.webp" alt="{{ config('app.name') }}">
                                 </div>
                             </div>
                             <div class="swiper-slide client-item">
                                 <div class="client-logo">
-                                    <img src="storage/assets/images/brands/brand-6.webp" alt="Image">
+                                    <img src="storage/assets/images/brands/brand-6.webp" alt="{{ config('app.name') }}">
                                 </div>
                             </div>
                         </div>
@@ -331,7 +331,7 @@
                                                 <div class="author-inner">
                                                     <div class="author-img">
                                                         <img src="storage/assets/images/testimonial/client-1.webp"
-                                                             alt="Image">
+                                                             alt="{{ config('app.name') }}">
                                                     </div>
                                                     <div class="author-header">
                                                         <h5 class="title">Laura Gómez</h5>
@@ -366,7 +366,7 @@
                                                 <div class="author-inner">
                                                     <div class="author-img">
                                                         <img src="storage/assets/images/testimonial/client-2.webp"
-                                                             alt="Image">
+                                                             alt="{{ config('app.name') }}">
                                                     </div>
                                                     <div class="author-header">
                                                         <h5 class="title">Carlos Méndez</h5>
@@ -400,7 +400,7 @@
                                                 <div class="author-inner">
                                                     <div class="author-img">
                                                         <img src="storage/assets/images/testimonial/client-3.webp"
-                                                             alt="Image">
+                                                             alt="{{ config('app.name') }}">
                                                     </div>
                                                     <div class="author-header">
                                                         <h5 class="title">Ana Rodríguez</h5>
@@ -434,7 +434,7 @@
                                                 <div class="author-inner">
                                                     <div class="author-img">
                                                         <img src="storage/assets/images/testimonial/client-3.webp"
-                                                             alt="Image">
+                                                             alt="{{ config('app.name') }}">
                                                     </div>
                                                     <div class="author-header">
                                                         <h5 class="title">Javier Ortega</h5>
@@ -488,7 +488,7 @@
                             </button>
                         </div>
                         <div class="cta-img">
-                            <img src="storage/assets/images/cta/cta-bg.webp" alt="Image">
+                            <img src="storage/assets/images/cta/cta-bg.webp" alt="{{ config('app.name') }}">
                         </div>
                     </div>
                 </div>
@@ -674,61 +674,61 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide gallery-item">
                                 <div class="gallery-img">
-                                    <img src="storage/assets/images/gallery/gallery-1.webp" alt="Image">
+                                    <img src="storage/assets/images/gallery/gallery-1.webp" alt="{{ config('app.name') }}">
 
                                 </div>
                             </div>
                             <div class="swiper-slide gallery-item">
                                 <div class="gallery-img">
-                                    <img src="storage/assets/images/gallery/gallery-2.webp" alt="Image">
+                                    <img src="storage/assets/images/gallery/gallery-2.webp" alt="{{ config('app.name') }}">
 
                                 </div>
                             </div>
                             <div class="swiper-slide gallery-item">
                                 <div class="gallery-img">
-                                    <img src="storage/assets/images/gallery/gallery-3.webp" alt="Image">
+                                    <img src="storage/assets/images/gallery/gallery-3.webp" alt="{{ config('app.name') }}">
 
                                 </div>
                             </div>
                             <div class="swiper-slide gallery-item">
                                 <div class="gallery-img">
-                                    <img src="storage/assets/images/gallery/gallery-4.webp" alt="Image">
+                                    <img src="storage/assets/images/gallery/gallery-4.webp" alt="{{ config('app.name') }}">
 
                                 </div>
                             </div>
                             <div class="swiper-slide gallery-item">
                                 <div class="gallery-img">
-                                    <img src="storage/assets/images/gallery/gallery-5.webp" alt="Image">
+                                    <img src="storage/assets/images/gallery/gallery-5.webp" alt="{{ config('app.name') }}">
 
                                 </div>
                             </div>
                             <div class="swiper-slide gallery-item">
                                 <div class="gallery-img">
-                                    <img src="storage/assets/images/gallery/gallery-6.webp" alt="Image">
+                                    <img src="storage/assets/images/gallery/gallery-6.webp" alt="{{ config('app.name') }}">
 
                                 </div>
                             </div>
                             <div class="swiper-slide gallery-item">
                                 <div class="gallery-img">
-                                    <img src="storage/assets/images/gallery/gallery-7.webp" alt="Image">
+                                    <img src="storage/assets/images/gallery/gallery-7.webp" alt="{{ config('app.name') }}">
 
                                 </div>
                             </div>
                             <div class="swiper-slide gallery-item">
                                 <div class="gallery-img">
-                                    <img src="storage/assets/images/gallery/gallery-8.webp" alt="Image">
+                                    <img src="storage/assets/images/gallery/gallery-8.webp" alt="{{ config('app.name') }}">
 
                                 </div>
                             </div>
                             <div class="swiper-slide gallery-item">
                                 <div class="gallery-img">
-                                    <img src="storage/assets/images/gallery/gallery-9.webp" alt="Image">
+                                    <img src="storage/assets/images/gallery/gallery-9.webp" alt="{{ config('app.name') }}">
 
                                 </div>
                             </div>
                             <div class="swiper-slide gallery-item">
                                 <div class="gallery-img">
-                                    <img src="storage/assets/images/gallery/gallery-10.webp" alt="Image">
+                                    <img src="storage/assets/images/gallery/gallery-10.webp" alt="{{ config('app.name') }}">
 
                                 </div>
                             </div>
@@ -739,24 +739,16 @@
         </div>
     </section>
     <!-- end: Gallery Section -->
+    <x-cta-footer
+        title="El momento de escalar es ahora"
+        link="{{ route('index') }}"
+        button-text="Empieza ahora"
+        image="storage/assets/images/cta/custom-bg.webp"
+    />
 @endsection
 @push('scripts')
     <script>
-        const calendlyBtn = document.getElementById('btnCalendly');
-        calendlyBtn.addEventListener('click', function () {
-            // Meta Pixel
-            if (typeof fbq !== 'undefined') {
-                fbq('track', 'Schedule', {content_name: 'Calendly', value: 0, currency: 'MXN'});
-            }
-
-            // GA4
-            if (typeof gtag !== 'undefined') {
-                gtag('event', 'schedule', {                  // nombre del evento en GA4
-                    method: 'calendly',                        // parámetro recomendado
-                    link_url: this.href,                       // útil para reportes
-                    ctalabel: 'Agenda tu llamada'              // etiqueta opcional
-                });
-            }
-        });
+        // Evento personalizado:
+        massTrack('AgendarLlamada', { source: 'landing' });
     </script>
 @endpush

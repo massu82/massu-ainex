@@ -1,6 +1,6 @@
 @extends('layouts.ainex')
-@section('title','Agenda una llamada con un experto')
-@section('description','Tu web puede generar más clientes. Agenda una llamada de 15 minutos y recibe un plan a medida.')
+@section('title','Página no encontrada | Massuttier - Soluciones Web y Marketing Digital')
+@section('description','La página que buscas no existe o fue movida. Descubre cómo en Massuttier creamos sitios web profesionales, optimizados para SEO y diseñados para generar más clientes.')
 @section('image','')
 @section('content')
     <!-- start: Breadcrumb Section -->
@@ -37,10 +37,10 @@
                             <div class="error-img">
                                 <img src="storage/assets/images/404/error.webp" alt="">
                             </div>
-                            <h2 class="error-title text-anim">Opps! Page Not Found</h2>
-                            <div class="error-desc">You are here because you entered the address of a page that no
-                                longer exists or
-                                has been moved to a different address
+                            <h2 class="error-title text-anim">Oops... Esta página no existe</h2>
+                            <div class="error-desc">Tal vez esta página desapareció, pero tu oportunidad de crecer en
+                                línea no. En Massuttier creamos sitios web optimizados para SEO, rápidos y listos para
+                                generar ventas.
                             </div>
                             <a class="tj-primary-btn error-btn" href="./">
                                 <div class="btn-inner">

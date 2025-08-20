@@ -10134,6 +10134,9 @@ START: Blog CSS
 .blog-item.style-4 .blog-content .text-btn::after, .blog-item.style-4 .blog-content .text-btn::before {
     display: none;
 }
+.hidden{
+    display: none;
+}
 
 .blog-item.style-4:hover .blog-content {
     padding-bottom: 80px;

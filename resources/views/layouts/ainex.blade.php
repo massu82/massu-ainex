@@ -28,30 +28,11 @@
     <link rel="stylesheet" href="storage/assets/css/meanmenu.css">
     <link rel="stylesheet" href="storage/assets/css/main.css">
     @stack('head')
-    <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-N3LGMHRQ');</script>
-    <!-- End Google Tag Manager -->
+    <x-analytics.ga4/> {{-- Lee GA4_ID de config/services --}}
+    <x-analytics.meta-pixel/> {{-- Lee FB_PIXEL_ID de config/services --}}
 </head>
 
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript>
-    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N3LGMHRQ"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<!-- End Google Tag Manager (noscript) -->
 <div class="body-overlay"></div>
 @if(!empty($showPreloader) && $showPreloader)
     <!-- Preloader Start -->
@@ -116,7 +97,7 @@
         <div class="hamburger_inner">
             <div class="hamburger_top d-flex align-items-center justify-content-between">
                 <div class="hamburger_logo">
-                    <a href="{{ route('landing_web') }}" class="mobile_logo">
+                    <a href="{{ route('index') }}" class="mobile_logo">
                         <img src="storage/assets/images/logos/logo.webp" alt="Massuttier">
                     </a>
                 </div>
@@ -140,7 +121,7 @@
             <!--<div class="hamburger-search-area">
                 <h5 class="hamburger-title">Search Now!</h5>
                 <div class="hamburger_search">
-                    <form method="get" action="{{ route('landing_web') }}">
+                    <form method="get" action="{{ route('index') }}">
                         <button type="submit"><i class="tji-search"></i></button>
                         <input type="search" autocomplete="off" name="s" value="" placeholder="Search here...">
                     </form>
@@ -186,7 +167,7 @@
         <div class="hamburger_inner">
             <div class="hamburger_top d-flex align-items-center justify-content-between">
                 <div class="hamburger_logo">
-                    <a href="{{ route('landing_web') }}" class="mobile_logo">
+                    <a href="{{ route('index') }}" class="mobile_logo">
                         <img src="storage/assets/images/logos/logo.webp" alt="Massuttier">
                     </a>
                 </div>
@@ -226,9 +207,11 @@
             <h5 class="hamburger-title">Síguenos</h5>
             <div class="social-links style-2">
                 <ul>
-                    <li><a href="https://www.facebook.com/studiomassuttier" target="_blank"><i class="tji-facebook"></i></a></li>
+                    <li><a href="https://www.facebook.com/studiomassuttier" target="_blank"><i class="tji-facebook"></i></a>
+                    </li>
                     <li><a href="https://www.linkedin.com/" target="_blank"><i class="tji-linkedin"></i></a></li>
-                    <li><a href="https://www.instagram.com/studiomassuttier/" target="_blank"><i class="tji-instagram"></i></a></li>
+                    <li><a href="https://www.instagram.com/studiomassuttier/" target="_blank"><i
+                                class="tji-instagram"></i></a></li>
                     <li><a href="https://x.com/aamassuttier" target="_blank"><i class="tji-x-twitter"></i></a></li>
                 </ul>
             </div>
@@ -263,6 +246,7 @@
 <script src="storage/assets/js/wow.min.js"></script>
 <script src="storage/assets/js/meanmenu.js"></script>
 <script src="storage/assets/js/main.js"></script>
+{{ $slot ?? '' }}
 @stack('scripts')
 
 </body>

@@ -6,7 +6,13 @@ use App\Http\Controllers\PageController;
 
 Route::controller(PageController::class)->group(function () {
     Route::get('/', 'index')->name('index');
+    //Route::get('/contacto', 'contacto')->name('contacto');
+    Route::get('/contacto', 'contacto')->name('contacto.show');
+    Route::post('/contacto', 'submitContact')
+        ->middleware('throttle:10,1') // anti-spam simple
+        ->name('contact.submit');
     Route::get('/agendar-llamada', 'landing_web')->name('landing_web');
+    Route::get('/confirmacion-llamada', 'confirmacion_llamada')->name('confirmacion-llamada');
 
 });
 

@@ -7,8 +7,9 @@
                     <div class="header-wrapper">
                         <!-- site logo -->
                         <div class="site_logo">
-                            <a class="logo" href="{{ route('landing_web') }}"><img src="storage/assets/images/logos/logo.webp"
-                                                                            alt="Massuttier"></a>
+                            <a class="logo" href="{{ route('index') }}"><img
+                                    src="storage/assets/images/logos/logo.webp"
+                                    alt="Massuttier"></a>
                         </div>
 
                         <!-- navigation -->
@@ -32,10 +33,10 @@
                                 </button>
                             </div>-->
                             <div class="header-button">
-                                <a class="tj-primary-btn" href="mailto:hola@massuttier.com.mx">
+                                <a class="tj-primary-btn" href="{{route('contacto.show')}}">
                                     <div class="btn-inner">
                                         <span class="btn-icon h-icon"><i class="tji-arrow-right"></i></span>
-                                        <span class="btn-text">Escríbenos</span>
+                                        <span class="btn-text">Contacto</span>
                                         <span class="btn-icon"><i class="tji-arrow-right"></i></span>
                                     </div>
                                 </a>
@@ -68,8 +69,8 @@
                 <div class="header-wrapper">
                     <!-- site logo -->
                     <div class="site_logo">
-                        <a class="logo" href="{{ route('landing_web') }}"><img src="storage/assets/images/logos/logo.webp"
-                                                                        alt="Image"></a>
+                        <a class="logo" href="{{ route('index') }}"><img src="storage/assets/images/logos/logo.webp"
+                                                                         alt="Image"></a>
                     </div>
 
                     <!-- navigation -->
@@ -93,10 +94,10 @@
                             </button>
                         </div>-->
                         <div class="header-button">
-                            <a class="tj-primary-btn" href="mailto:hola@massuttier.com.mx">
+                            <a class="tj-primary-btn" href="{{route('contacto.show')}}">
                                 <div class="btn-inner">
                                     <span class="btn-icon h-icon"><i class="tji-arrow-right"></i></span>
-                                    <span class="btn-text">Escríbenos</span>
+                                    <span class="btn-text">Contacto</span>
                                     <span class="btn-icon"><i class="tji-arrow-right"></i></span>
                                 </div>
                             </a>
