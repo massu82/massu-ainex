@@ -2,4 +2,7 @@
 !private/
 !public/
 !public/**
+!public/assets/
+!public/assets/**
 !.gitignore
+
