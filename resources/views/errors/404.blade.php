@@ -1,7 +1,7 @@
 @extends('layouts.ainex')
 @section('title','Página no encontrada | Massuttier - Soluciones Web y Marketing Digital')
 @section('description','La página que buscas no existe o fue movida. Descubre cómo en Massuttier creamos sitios web profesionales, optimizados para SEO y diseñados para generar más clientes.')
-@section('image','')
+@section('image'){{asset('storage/assets/images/img-share.png')}}@endsection
 @section('content')
     <!-- start: Breadcrumb Section -->
     <section class="tj-page-header section-gap-x" data-bg-image="assets/images/bg/pheader-bg.webp">
@@ -42,7 +42,7 @@
                                 línea no. En Massuttier creamos sitios web optimizados para SEO, rápidos y listos para
                                 generar ventas.
                             </div>
-                            <a class="tj-primary-btn error-btn" href="./">
+                            <a class="tj-primary-btn error-btn" href="{{route('index')}}">
                                 <div class="btn-inner">
                                     <span class="btn-icon h-icon"><i class="tji-home"></i></span>
                                     <span class="btn-text">Back to Home Page</span>

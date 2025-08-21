@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="storage/assets/css/venobox.min.css">
     <link rel="stylesheet" href="storage/assets/css/meanmenu.css">
     <link rel="stylesheet" href="storage/assets/css/main.css">
+
     @stack('head')
     <x-analytics.ga4/> {{-- Lee GA4_ID de config/services --}}
     <x-analytics.meta-pixel/> {{-- Lee FB_PIXEL_ID de config/services --}}

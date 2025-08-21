@@ -1,7 +1,7 @@
 @extends('layouts.ainex')
 @section('title','Confirmación de cita | Massuttier - Tu web lista para generar clientes')
 @section('description','Registro confirmado. En Massuttier diseñamos y optimizamos sitios web profesionales para que tu negocio crezca en internet.')
-@section('image','')
+@section('image'){{asset('storage/assets/images/img-share.png')}}@endsection
 @section('content')
     <!-- start: Breadcrumb Section -->
     <x-page-header

@@ -12,8 +12,9 @@
                             </a>
                         </div>
                         <div class="footer-text">
-                            <p>Understanding client needs, defining goals, and designing tailored AI crafting's
-                                solutions.
+                            <p>En <strong>Massuttier</strong> transformamos ideas en resultados. Diseñamos renders arquitectónicos que
+                                venden por sí solos, desarrollamos sitios web profesionales en Laravel con CMS a medida
+                                y lanzamos campañas digitales que generan clientes reales.
                             </p>
                         </div>
                         <div class="social-links style-2">
@@ -63,8 +64,7 @@
                             <form action="#">
                                 <input type="email" name="email" placeholder="Enter email*">
                                 <button type="submit"><i class="tji-plane"></i></button>
-                                <label for="agree"><input id="agree" type="checkbox">Agree to our <a href="#">Terms &
-                                        Condition?</a></label>
+                                <label for="agree"><input id="agree" type="checkbox">¿Aceptas los <a href="#">Términos y Condiciones?</a></label>
                             </form>
                         </div>
                     </div>
