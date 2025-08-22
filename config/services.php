@@ -37,4 +37,5 @@ return [
     'calendly_url' => env('CALENDLY_URL', 'https://calendly.com/default'),
     'ga4_id' => env('GA4_ID'),
     'meta_pixel_id' => env('FB_PIXEL_ID'),
+    'whatsapp_phone' => env('WHATSAPP_NUMBER'),
 ];

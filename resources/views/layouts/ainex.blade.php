@@ -228,6 +228,7 @@
 
 @include('includes.footer-main')
 
+
 <!-- JS here -->
 <script src="storage/assets/js/jquery.min.js"></script>
 <script src="storage/assets/js/bootstrap.bundle.min.js"></script>
@@ -249,6 +250,7 @@
 <script src="storage/assets/js/main.js"></script>
 {{ $slot ?? '' }}
 @stack('scripts')
+
 
 </body>
 

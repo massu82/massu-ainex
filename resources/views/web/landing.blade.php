@@ -1,7 +1,9 @@
 @extends('layouts.ainex')
 @section('title','Agenda una llamada con un experto')
 @section('description','Tu web puede generar más clientes. Agenda una llamada de 15 minutos y recibe un plan a medida.')
-@section('image'){{asset('storage/assets/images/img-share.png')}}@endsection
+@section('image')
+    {{asset('storage/assets/images/img-share.png')}}
+@endsection
 @push('head')
     @verbatim
         <!-- JSON-LD (Service) -->
@@ -747,4 +749,11 @@
         // Evento personalizado:
         massTrack('AgendarLlamada', {source: 'landing'});
     </script>
+    <x-cta-fixed
+        primary-url="https://calendly.com/massuttier/informacion-sitio-web"
+        primary-text="Reserva tu asesoría ahora"
+        secondary-url="https://wa.me/5214422593837"
+        secondary-text="Escríbenos directo en WhatsApp"
+    />
+
 @endpush

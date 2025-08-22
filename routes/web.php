@@ -13,6 +13,22 @@ Route::controller(PageController::class)->group(function () {
         ->name('contact.submit');
     Route::get('/agendar-llamada', 'landing_web')->name('landing_web');
     Route::get('/confirmacion-llamada', 'confirmacion_llamada')->name('confirmacion-llamada');
+    //WhatsApp
+    Route::get('/wa/on', function (Request $request) {
+        session(['wa_enabled' => true]);
+        return back();
+    })->name('wa.on');
+
+    Route::get('/wa/off', function (Request $request) {
+        session()->forget('wa_enabled');
+        return back();
+    })->name('wa.off');
+
+    Route::get('/wa', function (Request $request) {
+        $phone = config('services.whatsapp_phone', env('WHATSAPP_NUMBER', '5214422593837'));
+        $msg = rawurlencode('Hola, me interesa una asesoría con Massuttier 🚀' . "\n\nPágina: " . url()->previous());
+        return redirect("https://wa.me/{$phone}?text={$msg}");
+    })->name('wa.chat');
 
 });
 
