@@ -749,19 +749,19 @@
         // Evento personalizado:
         massTrack('AgendarLlamada', {source: 'landing'});
     </script>
-    <!--<x-cta-fixed
+    <x-cta-fixed
         primary-url="https://calendly.com/massuttier/informacion-sitio-web"
         primary-text="Reserva tu asesoría ahora"
-        secondary-url="https://wa.me/5214422593837"
+        secondary-url="https://wa.me/5214421970882"
         secondary-text="Escríbenos directo en WhatsApp"
-    />-->
-    <script>window.$zoho = window.$zoho || {};
+    />
+    <!--<script>window.$zoho = window.$zoho || {};
         $zoho.salesiq = $zoho.salesiq || {
             ready: function () {
             }
         }</script>
     <script id="zsiqscript"
             src="https://salesiq.zohopublic.com/widget?wc=siq5b6a1b08c5cd79c07efb73461439539f7128508802cb9ffb48f1869c9ca5c00e"
-            defer></script>
+            defer></script>-->
 
 @endpush
