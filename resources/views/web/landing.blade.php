@@ -739,7 +739,7 @@
     <!-- end: Gallery Section -->
     <x-cta-footer
         title="El momento de escalar es ahora"
-        link="{{ route('index') }}"
+        link="{{ route('contacto.show') }}"
         button-text="Empieza ahora"
         image="storage/assets/images/cta/custom-bg.webp"
     />
