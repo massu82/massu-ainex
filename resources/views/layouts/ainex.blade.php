@@ -133,7 +133,7 @@
                 <div class="contact-info">
                     <div class="contact-item">
                         <span class="subtitle">WhatsApp</span>
-                        <a class="contact-link" href="https://wa.me/524422593837" target="_blank">+524422593837</a>
+                        <a class="contact-link" href="https://wa.me/524421970882" target="_blank">+524421970882</a>
                     </div>
                     <div class="contact-item">
                         <span class="subtitle">Email</span>
@@ -191,7 +191,7 @@
                 <div class="contact-info">
                     <div class="contact-item">
                         <span class="subtitle">WhatsApp</span>
-                        <a class="contact-link" href="https://wa.me/524422593837">+52 (442)-259-3837</a>
+                        <a class="contact-link" href="https://wa.me/524421970882">+52 (442)-259-3837</a>
                     </div>
                     <div class="contact-item">
                         <span class="subtitle">Email</span>

@@ -1,7 +1,7 @@
 @props([
     'primaryUrl' => config('services.calendly_url'),
     'primaryText' => 'Agendar llamada gratuita (15 min)',
-    'secondaryUrl' => 'https://wa.me/524422593837',
+    'secondaryUrl' => 'https://wa.me/524421970882',
     'secondaryText' => 'Prefieres WhatsApp? Escríbenos ahora',
     'scrollOffset' => 200,
     'gaCategory' => 'cta_fixed',

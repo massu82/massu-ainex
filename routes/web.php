@@ -25,7 +25,7 @@ Route::controller(PageController::class)->group(function () {
     })->name('wa.off');
 
     Route::get('/wa', function (Request $request) {
-        $phone = config('services.whatsapp_phone', env('WHATSAPP_NUMBER', '5214422593837'));
+        $phone = config('services.whatsapp_phone', env('WHATSAPP_NUMBER', '5214421970882'));
         $msg = rawurlencode('Hola, me interesa una asesoría con Massuttier 🚀' . "\n\nPágina: " . url()->previous());
         return redirect("https://wa.me/{$phone}?text={$msg}");
     })->name('wa.chat');

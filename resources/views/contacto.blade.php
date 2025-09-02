@@ -67,9 +67,9 @@
                         </div>
                         <h3 class="contact-title">WhatsApp</h3>
                         <ul class="contact-list">
-                            <li><a class="contact-link" href="https://wa.me/524422593837"
-                                   target="_blank">+524422593837</a></li>
-                            <li class="active"><a href="https://wa.me/524422593837" target="_blank">Necesitas ayuda?</a>
+                            <li><a class="contact-link" href="https://wa.me/524421970882"
+                                   target="_blank">+524421970882</a></li>
+                            <li class="active"><a href="https://wa.me/524421970882" target="_blank">Necesitas ayuda?</a>
                             </li>
                         </ul>
                     </div>
