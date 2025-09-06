@@ -6,6 +6,25 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+flowchart TD
+    A[Campaña Meta/Google<br/>Click-to-WhatsApp] -->|wa.me link| B[WhatsApp Cloud API / 360dialog]
+
+    B --> C[Webhook entrante<br/>Make/Zapier Scenario]
+
+    C --> D[Mensaje de bienvenida automático<br/>"Catálogo / Cita / Asesor"]
+
+    D --> E{Respuesta del lead}
+    E -->|Nombre + Email| F[Guardar en Google Sheets<br/> (Nombre, Tel, Email, Intención, Fecha)]
+    F --> G[Notificación interna<br/>(Email/Telegram)]
+
+    E -->|Opción Catálogo| H[Enviar PDF/Link al Catálogo]
+    E -->|Opción Cita| I[Calendly Link]
+    E -->|Opción Asesor| J[Aviso Interno<br/>Equipo Comercial]
+
+    G --> K[Meta Pixel/GA4<br/>Evento 'Lead']
+    H --> K
+    I --> K
+    J --> K
 
 ## About Laravel
 
